@@ -75,7 +75,7 @@ class CrudBuilderController extends Controller
               // $res_field[$i]->validation = "";
             }
 
-            dd($res_field);
+            // dd($res_field);
             $tabel = ($_POST['name_mvc']);
             $statusmvc = $this->set_mvc($tabel, $res_field, $subject, $label);
             $message = '<h3>MVC '.ucfirst($_POST["name_mvc"]).' alredy Setup</h3>'.$statusmvc;
@@ -1278,7 +1278,7 @@ class CrudBuilderController extends Controller
         //if (($i!=0)&&($res_field[$i]->Field != "created_at")&&($res_field[$i]->Field != "updated_at")&&($res_field[$i]->Field != "created_at"))
          if (($res_field[$i]->Field != "created_at")&&($res_field[$i]->Field != "updated_at")&&($res_field[$i]->show_column_list == true))
         {
-            dump($i);
+            //dump($i);
              if ($i==0) {
               $str_head = $str_head.'<th class="min-w-125px sorting">Action</th>' ;
               // dd( $i);
