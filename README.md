@@ -10,3 +10,12 @@ git clone https://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@github.com/suryo/lara
 - Metronic Theme
 - CRUD Builder
 - API Builder
+
+## HOW TO INSTALL
+- git clone
+- composer install
+- copy file .env.example and rename to .env
+- set connectin db on .env
+- php artisan key:generate
+- php artisan optimize:clear
+- php artisan serve
