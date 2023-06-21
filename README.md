@@ -1,6 +1,6 @@
-## LARAPICKER
+## LARALIBRARY
 
-Larapicker web builder is used to create dynamic web, making rest API, Dynamic Forms, CRUD dynamic and Page Builder incredible, build web application fast and possible base on Laravel Framework.
+Laralibrary base on Larapicker 8 skeleton
 
 
 ![alt text](https://github.com/suryo/laravel8-metronic-1/blob/master/public/doc/crud_builder.jpg?raw=true)
